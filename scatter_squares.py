@@ -14,5 +14,6 @@ ax.set_ylabel("Square of Value", fontsize=14)
 
 # Set size of tick labels.
 ax.axis([0, 1100, 0, 1_100_000])
+ax.ticklabel_format(style = 'plain')
 
 plt.show()
