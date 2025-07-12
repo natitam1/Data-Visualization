@@ -5,7 +5,7 @@ y_values = [x**3 for x in x_values]
 plt.style.use('_classic_test_patch')
 
 fig, ax = plt.subplots()
-ax.scatter(x_values, y_values, s=10)  # Corrected here
+ax.scatter(x_values, y_values, c=y_values ,s=10)  # Corrected here
 
 # Set chart title and labels.
 ax.set_title("Cube of Numbers", fontsize=24)
